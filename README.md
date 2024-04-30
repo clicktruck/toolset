@@ -16,7 +16,7 @@ An Ubuntu 22.04-based Docker image of curated tools for use with Kubernetes envi
 If you want to build a portable container image, then execute
 
 ```
-./build.sh
+./scripts/build.sh
 ```
 > You may add `docker` or `nerdctl` as an argument to script execution in order to dictate which container build engine is employed to build the image.  If no argument is supplied, the script employs Docker.
 
